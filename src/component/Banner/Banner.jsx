@@ -22,7 +22,7 @@ const Banner = () => {
                             <img src={frame54} alt="" />
                             <img src={frame55} alt="" />
                         </div>
-                        <button className="bg-[#E46400] w-[85px] h-[33px] lg:w-[156px] lg:h-[48px] rounded-md">Get Started</button>
+                        <button className="bg-[#E46400] w-[120px] h-[33px] lg:w-[156px] lg:h-[48px] rounded-md">Get Started</button>
                         <button className="border w-[150px] lg:w-[209px] ml-5 h-[33px] lg:h-[48px] rounded-md">Download CV </button>
                         <div className='lg:w-[534px] w-[340px] lg:h-[125px] h-[99px] grid grid-cols-3 py-8 rounded-md mt-12 bg-[#FFFFFF0A]'>
                             <div className='border-r px-1 lg:px-5 text-start'>
