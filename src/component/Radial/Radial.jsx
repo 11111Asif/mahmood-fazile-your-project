@@ -5,7 +5,7 @@ import Ai from '../../assets/iconoir_adobe-illustrator.png'
 import pr from '../../assets/basil_adobe-premiere-outline.png'
 const Radial = () => {
     return (
-        <div className="py-12 lg:px-16 bg-base-200 grid grid-cols-2 lg:grid-cols-5 gap-5 ">
+        <div className="py-6 lg:py-12 lg:px-16 bg-base-200 grid grid-cols-2 lg:grid-cols-5 gap-5 ">
             <div className="card  w-auto ">
                 <figure className="">
                     <div className="radial-progress text-[#FD6F00]" style={{ "--value": 100, "--size": "8rem" }} role="progressbar">
