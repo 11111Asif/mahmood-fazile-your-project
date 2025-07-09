@@ -1,5 +1,6 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
 import Navbar from "../Navbar/Navbar";
 import Portfolio from "../Portfolio/Portfolio";
 import Radial from "../Radial/Radial";
@@ -15,6 +16,7 @@ const Home = () => {
             <About></About>
             <Radial></Radial>
             <Portfolio></Portfolio>
+            <Contact></Contact>
         </div>
     );
 };
