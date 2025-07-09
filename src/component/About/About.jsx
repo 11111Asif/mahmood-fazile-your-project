@@ -1,5 +1,6 @@
 import men from '../../assets/Man in black suit looking confident.png'
 import { CiSaveDown2 } from "react-icons/ci";
+
 const About = () => {
     return (
         <div className='lg:px-10 bg-base-200'>
@@ -14,7 +15,7 @@ const About = () => {
                         className=" rounded-lg lg:w-[566px] w-[395px] h-[564px] lg:h-[708px]" />
                     <div>
 
-                        <p className="py-6 lg:ml-10 space-y-10">
+                        <p className="py-6 lg:ml-10">
                             A software engineer, the modern-day architect of digital
                             realms, navigates the ethereal landscapes of code,
                             sculpting intangible structures that shape our
@@ -37,10 +38,13 @@ const About = () => {
                             <CiSaveDown2 className='font-semibold text-xl'></CiSaveDown2>
                             Download CV
                         </button>
+
                     </div>
                 </div>
+               
             </div>
         </div>
+        
     );
 };
 
