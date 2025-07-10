@@ -7,7 +7,7 @@ import { LuPhone } from "react-icons/lu";
 
 const Footer = () => {
     return (
-        <div className="bg-[#FFFFFF0A] py-5 px-10">
+        <div className="bg-[#FFFFFF0A] py-5 px-3 lg:px-10">
             <h1 className="text-3xl text-center font-bold text-[#E60026]">LOGO</h1>
             <div className="mt-5">
                 <ul className="list-none space-x-4 lg:space-x-10 flex justify-center">
@@ -15,8 +15,11 @@ const Footer = () => {
                     <li><a>Services</a></li>
                     <li><a>About me</a></li>
                     <li><a>Portfolio</a></li>
-                    <li><a>Contact me</a></li>
+                    <li className='hidden lg:block'><a>Contact me</a></li>
                 </ul>
+                <div className='list-none text-center mt-2 block lg:hidden'>
+                    <li><a>Contact me</a></li>
+                </div>
             </div>
             <div className='flex justify-center mt-7 gap-5'>
                 <img src={frame52} alt="" />
@@ -34,7 +37,7 @@ const Footer = () => {
                     <p>+93 729 107 005</p>
                 </div>
             </div>
-            <div className='border mt-10 lg:w-[593px] w-[350px] ml-[28px] lg:ml-[240px]'></div>
+            <div className='border mt-10 lg:w-[593px] w-[350px] lg:ml-[240px]'></div>
             <p className='text-center py-4'>Designed by @mahmood.fazile UI/UX designer</p>
         </div>
     );

@@ -35,7 +35,7 @@ const Contact = () => {
                     </div>
                     
                 </div>
-                <div className="lg:text-end lg:px-9 py-5">
+                <div className="lg:text-end text-center lg:px-9 py-5">
                     <button className="w-[127px] h-[48px] rounded-md bg-[#FFFFFF0A]">Send</button>
                 </div>
             </div>
